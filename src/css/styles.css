@@ -10,7 +10,7 @@ header img{
   vertical-align: middle;
 }
 header h1{
-  padding-bottom: 1rem;
+  padding-bottom: auto;
 }
 header {
   width: 100%;
