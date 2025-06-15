@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+header img{
+  width: 10%;
+  height: auto;
+  vertical-align: middle;
+}
+header h1{
+  padding-bottom: 1rem;
+}
+header {
+  width: 100%;
+  background: #C4652A;
+background: radial-gradient(circle, rgba(196, 101, 42, 1) 0%, rgba(196, 96, 26, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit;         /* Usa a cor do pai (herdada) */
+}
+
+#catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+.card p {
+  font-weight: bold;
+  color: #333;
+}
+
+.card button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #357ab8;
+}
